@@ -9,7 +9,6 @@ const getWeatherDescription = function(code,decode){
 const decode = function(code){
     switch(code){
         case "SQ":return "шквал";
-        
         case "PO":return "пыльный вихрь";
         case "FC":return "торнадо";
         case "BR":return "дымка (видимость от 1 до 9 км)";
